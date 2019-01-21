@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    width:400px;
+    text-align: left;
+    display: inline-block;
+    line-height: 300%
+}
+
+#base_info {
+    width: 100px;
+    margin: auto;
+    label{
+        width:100px;
+    }
+    input{
+        width:270px;
+    }   
+}
+
+
+
+.lable {
+    vertical-align: center;
+    width: 100px;
+    
+}
+.input {
+    vertical-align: center;
+    width: 250px;
+    
+}
+.radio{
+    vertical-align: center;
+    width: 50px;
+}
+
+.select{
+    vertical-align: center;
+    width: 150px;
+}
+.submit{
+    vertical-align: center;
+    width: 100px;
+}
