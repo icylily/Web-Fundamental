@@ -4,7 +4,9 @@
     width:400px;
     text-align: left;
     display: inline-block;
-    line-height: 300%
+    line-height: 200%;
+    background-color: darkgray;
+    
 }
 
 #base_info {
@@ -17,8 +19,14 @@
         width:270px;
     }   
 }
+textarea{
+    background-color: antiquewhite;
+    border:1px solid black;
+}
+input[type='select']{
+    border:1px solid black;
 
-
+}
 
 .lable {
     vertical-align: center;
@@ -38,6 +46,8 @@
 .select{
     vertical-align: center;
     width: 150px;
+    display:block;
+    border:1px solid black;
 }
 .submit{
     vertical-align: center;
