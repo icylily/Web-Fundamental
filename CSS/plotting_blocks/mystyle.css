@@ -15,6 +15,7 @@
 #header{
  min-height: 150px;
  background-color: green;
+ margin-bottom: 15px;
 }
 #navigation{
  min-height: 300px;
@@ -47,3 +48,4 @@
  background-color: purple;
  text-align: center;
 }
+
