@@ -1,0 +1,154 @@
+*{
+    margin: 4px;
+    padding: 4px;
+ /* background-color: gray; */
+
+}
+/* h1{
+    color:#c2d6ec ;
+} */
+
+.container{
+    width: 1000px;
+    background-color: #f6f6f6;
+    margin-left: 10px ;
+    padding:4px;
+    
+}
+.header{
+    min-height: 50px;
+    font-size: 18px; 
+    border: 0px #568bb9 solid; 
+    border-radius: 15px; 
+    margin-left:10px;
+    margin-top:10px;
+    color:black ;
+    display: block;
+
+}
+/* h1, h2 {
+	display: inline;
+}
+
+h1 {
+	margin-left: 10px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2 {
+	margin-left: 400px;
+	font-family: arial;
+	font-size: 20px;
+} */
+h3, h4 {
+	padding: 9px 0px 9px 10px;
+	/* background-color: rgb(153, 153, 153); */
+	background: linear-gradient(#b4b4b7,#8b8a95,#b4b4b7);
+	font-family: arial;
+	font-weight: normal;
+    color: white;
+    margin:0px;
+
+}
+.header h1{
+    display: inline-block;
+    margin-left: 10px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.header h2{
+    display: inline-block;
+    text-align: right;
+    margin-left: 400px;
+	font-family: arial;
+	font-size: 20px;
+}
+.main_content{
+    min-height: 50px;
+    width:950px;
+    background-color: #3f2d34;
+    font-size: 18px; 
+    margin-left:10px;
+    margin-top:10px;
+    color:#c2d6ec ;
+    display: inline-block;
+
+}
+.upper_content{
+    display:block;
+    color:#e7dee6;
+}
+.mypicture{
+    display:inline-block;
+    width: 400px;
+    height: 300px;
+    border:3px solid #c0c0c0;
+
+}
+.about{
+    display:inline-block;
+    width:490px;
+    height: 306px;
+    vertical-align: top;
+    background-color: #f6f2f5;
+    color:black;
+}
+.about h1{
+    background:#a5a4ab;
+    margin:0;
+    padding:0;
+}
+.footer{
+    text-align: center;
+    /* margin:0;
+    padding:0; */
+}
+.footer img{
+    width:20px;
+    height: 20px;
+    margin:0px;
+    padding:0px;
+}
+.footer a{
+    margin:0;
+    padding:0;
+    font-size:medium;
+}
+.project_link {
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: #417c62;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+    box-shadow: 5px 5px 5px gray;
+    height: 40px;
+	text-align: center;
+}
+
+.left_under{
+    display: inline-block;
+    width: 290px;
+    vertical-align: top;
+    background: linear-gradient(to right, #ffffff, #dacbd8);
+    padding:0px;
+}
+.left_under img{
+    width: 250px;
+}
+.left_under p{
+    font-size: 14px;
+	height: 140px;
+    text-align: justify;
+    color:black;
+}
+
+
+
+
+.tech img{
+    width:30px;
+    height: 30px;
+    padding:0px;
+
+}
