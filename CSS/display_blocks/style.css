@@ -1,0 +1,38 @@
+*{
+    margin:4px;
+    padding:4px;
+}
+.container{
+    width:900px;
+    background-color: #d5d2ae;
+
+}
+.header{
+    display:inline-block;
+    text-align: center;
+    padding: 20px;
+    margin-left: 180px;
+    margin-bottom: 0px;
+
+}
+.header img{
+    width:100px;
+    height: 80px;
+    display: inline-block;
+    background-attachment: fixed;
+    background-color:white;
+
+}
+.header h1{
+    display: inline-block;
+}
+.blocks{
+    display: inline-block;
+    margin-top: 0px;
+}
+.blocks img{
+    width:150px;
+    height: 150px;
+    background-color: coral;
+    border: 2px solid blue;
+}
