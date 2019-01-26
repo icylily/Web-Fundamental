@@ -1,0 +1,192 @@
+*{
+    /* background-color:silver; */
+    /* border:1px solid blue; */
+    margin:auto;
+}
+
+.container{
+    /* background-color: aqua; */
+    /* border:1px solid black; */
+    /* min-height: 300px; */
+    width:970px;
+}
+.header{
+    /* background-color: burlywood; */
+    /* min-height: 100px; */
+    /* border:1px solid pink; */
+    position:reletive;
+}
+
+.container img{
+    width:80px;
+    height:80px;
+    display: inline-block;
+    vertical-align: center;
+    margin-top:10px;
+    /*position: relative; */
+}
+.container .header h1{
+    display: inline-block;
+    vertical-align: center;
+    font-size:40px;
+    padding:10px;
+    position:relative;
+}
+.top-header img{
+    position: relative;
+    top:40px;
+    margin-top:20px;
+}
+.header h2{
+    background-color: #467ba8;
+    color:white;
+    padding:15px;
+}
+.bluefont{
+    color: #467ba8;
+}
+.left-side{
+    /* background-color:pink; */
+    /* border:1px solid black; */
+    /* min-height: 400px; */
+    width:210px;
+    display:inline-block;
+    vertical-align: top;
+
+}
+.right-side{
+    /* background-color:silver; */
+    /* border:1px solid black; */
+    width:720px;
+    display:inline-block;
+    margin-left:20px;
+
+}
+.left-side .top-left{
+    border-bottom:1px solid grey;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.bottom-left{
+    background-image:url("images/ad_background.png");
+    /* background-color: yellow; */
+    padding-top:20px;
+    padding-bottom:20px;
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+}
+.bottom-left img{
+    width:100px;
+    height: 140px;
+}
+.top-right{
+    border-bottom:1px solid grey;
+}
+.top-right .dns{
+    display: inline-block;
+    vertical-align: top;
+}
+.dns img{
+    width:15px;
+    height: 15px;
+    display: inline-block;
+}
+.dns h4{
+    display: inline-block;
+    color: #467ba8;
+}
+.phone{
+    display:inline-block;
+    margin-left:430px;
+}
+.phone img{
+    width:50px;
+    height: 50px;
+    display: inline-block;
+    /* vertical-align: center; */
+}
+.phone .phone-num{
+    display: inline-block;
+}
+.phone-num p{
+    font-size: x-small;
+}
+
+.top-left a{
+    color:white;
+    /* background-color: #5a91be; */
+    width: 170px;
+    padding-top: 5px;
+    margin: 5px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.backgroundblue{
+    background-color: #5a91be;
+}
+
+.backgroundorange{
+    background-color: #ee8300;
+}
+
+.bottom-left a{
+    color:white;
+    /* background-color: #5a91be; */
+    width: 170px;
+    padding-top: 5px;
+    margin: 5px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    background-color: #00c3df;
+    margin-left:20px;
+
+}
+
+.main-right img{
+    width: 280px;
+    height: 100px;
+    padding: 20px;
+    margin-left: 210px;
+
+}
+
+.bottom-right{
+    border-top:3px solid #467ba8;
+    border-left:3px solid #467ba8;
+    border-right:3px solid #467ba8;
+    margin-top:10px;
+}
+
+.bottom-right img{
+    display:inline-block;
+    padding:10px;
+}
+.bottom-right .descripe-html{
+    display:inline-block;
+    width:540px;
+    padding:5px;
+}
+
+.red{
+    color:red;
+}
+
+.main-right a{
+    text-decoration: none;
+    color:#2eaabd
+    ;
+}
+
+.descripe-html a{
+    text-decoration: none;
+    color:#2eaabd
+    ;
+}
