@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hover In and Out </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            
+            $('img').hover(function () {
+                var next = $(this).attr("data-alt-src");    
+                $(this).attr("src", next);  
+            }, function () {
+                var original = $(this).attr("data-orig-src");   
+                $(this).attr("src", original);  
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/ninja1.jpg" data-alt-src="img/ninja2.jpg" data-orig-src="img/ninja1.jpg" alt="ninjia">
+        <img src="img/ninja2.jpg" data-alt-src="img/ninja1.jpg" data-orig-src="img/ninja2.jpg" alt="ninjia">
+        <img src="img/ninja3.png" data-alt-src="img/ninja4.png" data-orig-src="img/ninja3.png" alt="ninjia">
+        <img src="img/ninja4.png" data-alt-src="img/ninja3.png" data-orig-src="img/ninja4.png" alt="ninjia">
+    </div>
+</body>
+
+</html>
