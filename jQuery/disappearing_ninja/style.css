@@ -1,0 +1,21 @@
+img {
+    width:200px;
+    height: 200px;
+    border:1px solid blue;
+}
+
+.container{
+    width:820px;
+    height:450px;
+    border:2px solid black;
+    padding:30px;
+}
+button{
+    width:100px;
+    height:35px;
+    background-color:grey;
+    border-radius:5px;
+    position:absolute;
+    left:50px;
+    bottom:80px;
+}

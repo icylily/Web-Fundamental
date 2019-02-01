@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#slidetoggle").click(function () {
+                $("#slidetoggle_img").slideToggle();
+            });
+            $("#text").click(function () {
+                $("#text_p").text("Hello world!");
+            });
+            $("#val").click(function () {
+                $("input:text").val("Web Fundanmental");
+            });
+            $("#attr").click(function () {
+                $("#attr_img").attr("width", "400");
+            });
+            $("#html").click(function () {
+                $("p").html("Hello <b>world!</b>");
+            });
+            $("#after").click(function () {
+                $("#after_p").after("<img  src='./smile.png'>");
+            });
+            $("#before").click(function () {
+                $("#before_p").before("<img  src='./smile.png'>");
+            });
+            $("#fadeOut").click(function () {
+                $("#p_fadeout").fadeOut()
+            });
+            $("#fadeIn").click(function () {
+                $("#p_fadeIn").fadeIn()
+            });
+            $("#slideUp").click(function () {
+                $("#p_slideUp").slideUp();
+            });
+            $("#slideDown").click(function () {
+                $("#p_slideDown").slideDown();
+            });
+            $("#toggle").click(function () {
+                $("#p_toggle").toggle();
+            });
+            $("#hide").click(function () {
+                $("#p_hide").hide();
+            });
+            $("#show").click(function () {
+                $("#p_show").show();
+            });
+            $("#click").click(function () {
+                alert("This button was clicked.");
+            });
+             $("#append").click(function () {
+                $("ol").append("<li>Appended item</li>");
+            });
+             $("#addClass").click(function () {
+                $("#p_addClass").addClass("red");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="row">
+            <button id="addClass" href="">Add Class</button>
+            <div class="content">
+                <h3>AddClass</h3>
+                <p id="p_addClass">Click the button to add class 'red' to this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <button  id = "slidetoggle" >Slidetoggle</button>
+            <div class="content">
+                <h3>Slidetoggle</h3>
+                <p>Click the button to Slidetoggle a hidden image</p>
+                <img id="slidetoggle_img" src="./welcome.jpg" alt="welcome" style="display:none">
+            </div>
+        </div>
+        <div class="row">
+            <button id="append" >Append</button>
+            <div class="content">
+                <h3>Append</h3>
+                <p>Click the button to append a new paragraph</p>
+                <ol>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ol>
+
+            </div>
+        </div>
+        <div class="row">
+            <button id= "click" >Click</button>
+            <div class="content">
+                <h3>Click</h3>
+                <p>Click the button to show a message that buttom was clicked</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="hide" >Hide</button>
+            <div class="content">
+                <h3>Hide</h3>
+                <p id="p_hide">Click the button to hide this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="show" >Show</button>
+            <div class="content">
+                <h3>Show</h3>
+                <p id="p_show" style="display:none">Please add description</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="toggle" >Toggle</button>
+            <div class="content">
+                <h3>Toggle</h3>
+                <p id = "p_toggle">Toggle between hide and show</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="slideDown">slideDown</button>
+            <div class="content">
+                <h3>slideDown</h3>
+                <p>Click the button to make a hide paragraph slide down</p>
+                <p id = "p_slideDown" style="display:none">Slide Down</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="slideUp" >slideUp</button>
+            <div class="content">
+                <h3>slideUp</h3>
+                <p id = "p_slideUp">Click the button to make the paragpagh slide up</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="fadeIn" >fadeIn</button>
+            <div class="content">
+                <h3>fadeIn</h3>
+                <p id="p_fadeIn" style="display:none">Fade In.</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="fadeOut" >fadeOut </button>
+            <div class="content">
+                <h3>fadeOut</h3>
+                <p id="p_fadeout">Click the button to make this paragraph fade out.</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="before">before</button>
+            <div class="content">
+                <h3>before</h3>
+                <p id="before_p">Click the button to add a smile icon before this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="after">after </button>
+            <div class="content">
+                <h3>after</h3>
+                <p id="after_p">Click the button to add a smile icon after this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="html">html</button>
+            <div class="content">
+                <h3>html</h3>
+                <p>Click the button to change all the paragraph to hello world</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="attr">attr</button>
+            <div class="content">
+                <h3>attr</h3>
+                <p>Click the button to set the width attribute of the image</p>
+                <img src="./welcome.jpg" alt="welcome" id = "attr_img">
+            </div>
+        </div>
+        <div class="row">
+            <button id="val">val</button>
+            <div class="content">
+                <h3>val</h3>
+                <p>Click the button to set the value of the input field</p>
+                <p>Stack: <input type="text" name="user" id = "val_input"></p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="text">text </button>
+            <div class="content">
+                <h3>text</h3>
+                <p id="text_p">Click button to change the paragraph to "Hello World"</p>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

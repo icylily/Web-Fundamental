@@ -1,0 +1,31 @@
+.wrapper{
+    border:1px solid black;
+    width:700px;
+    margin-left: 50px;
+}
+.row{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.row button{
+    display:inline-block;
+    /* border: 2px solid black; */
+    /* text-decoration: none; */
+    vertical-align: middle;
+    margin-left:50px;
+    margin-right:50px;
+    padding:5px;
+    margin-bottom: 20px;
+
+}
+.content{
+    display:inline-block;
+    margin-left:50px;
+}
+.content h3{
+    text-align: center;
+}
+.red {
+  /* font-size: 150%; */
+  color: red;
+}

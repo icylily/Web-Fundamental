@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("img").click(function () {
+                $(this).hide();
+            });
+             $("#reset").click(function () {
+                location.reload();
+            });
+          });
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Disappearing Ninja</title>
+  
+</head>
+<body>
+    <div  class = "container">
+        <img src="imgs/ninja1.jpg" alt="ninja1">
+        <img src="imgs/ninja2.jpg" alt="ninja2">
+        <img src="imgs/ninja3.png" alt="ninja3">
+        <img src="imgs/ninja4.png" alt="ninja4">
+        <img src="imgs/ninja5.png" alt="ninja5">
+        <img src="imgs/ninja6.png" alt="ninja6">
+        <img src="imgs/ninja7.png" alt="ninja7">
+        <img src="imgs/ninja8.png" alt="ninja8">
+        <button id="reset">Reset</button>
+
+    </div>
+    
+</body>
+</html>
